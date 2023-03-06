@@ -5,6 +5,9 @@ public class Vehicle{
 		 DieselEngine de = new DieselEngine();
 		
 		pe.start();
+		pe.stops();
+		
 		de.start();
+		de.stops();
 	}
 }
