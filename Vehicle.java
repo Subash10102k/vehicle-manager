@@ -1,9 +1,14 @@
 public class Vehicle{
 	
-	private PetrolEngine pe;
+	public class PetrolEngine{
+		public static void start() {
+			System.out.println("Engine starting");
+		}
+	}
 	
 	public static main (String[] args) {
-		System.out.println("hello");
+		 PetrolEngine pe = new PetrolEngine();
+		
 		pe.start();
 	}
 }
